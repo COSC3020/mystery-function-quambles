@@ -12,9 +12,7 @@ function mystery(a) {
 }
 ```
 
-The mystery function in the previous piece of code searches an array for the maximum element
-It functions recursively:
-    -The recursive case is when there is more than one element left. It compares the 1st element 
-     against the recursive call of the function with the remainder of the array.
-        -The recursive call searches the remaining array and returns the largest element found
-    -The base case is when there is only one element left in the array. It returns that element
+The mystery function in the previous piece of code recursively searches an array for the maximum element. 
+It compares the 1st element against the recursive call of the function with the remainder of the array.
+That recursive call searches the remaining array and returns the largest element found. When there is
+only one element left in the array it returns that element.
