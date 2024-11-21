@@ -11,3 +11,8 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+The mystery function in the previous piece of code recursively searches an array for the maximum element. 
+It compares the 1st element against the recursive call of the function with the remainder of the array.
+That recursive call searches the remaining array and returns the largest element found. When there is
+only one element left in the array it returns that element.
